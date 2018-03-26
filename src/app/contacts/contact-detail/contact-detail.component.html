@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-xs-6 col-xs-offset-4">
+        <button class="btn btn-primary" (click)="onEditContact()">Edit Contact</button>
+        <button class="btn btn-danger" (click)="onDeleteContact()">Delete Contact</button>
+  </div>
+</div>
+<hr>
+
+<div class="row contact-data">
+  <div class="col-xs-6">
+    <dl class="dl-horizontal">
+      <dt>First Name</dt>
+      <dd>{{contact.firstName}}</dd>
+      <dt>Last Name</dt>
+      <dd>{{contact.lastName}}</dd>
+      <dt>Email</dt>
+      <dd>{{contact.email}}</dd>
+      <dt>Phone</dt>
+      <dd>{{contact.phoneNumber}}</dd>
+    </dl>
+  </div>
+  <div class="col-xs-5 col-xs-offset-1">
+    <img
+      [src]="contact.imagePath"
+      alt="{{ contact.firstName }}"
+      class="img-responsive"
+      style="max-height: 200px;">
+  </div>
+</div>
