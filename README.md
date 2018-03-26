@@ -7,10 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Folder Structure
-src/app/contacts - contains all the components related to the contacts
-src/app/header - container header component
-src/app/services - contains services needed to save contacts
-src/app/models - contains contact model
+src/app/contacts - contains all the components related to the contacts <br />
+src/app/header - container header component <br />
+src/app/services - contains services needed to save contacts <br />
+src/app/models - contains contact model <br />
 
 ## Functionality
 
@@ -18,11 +18,10 @@ All the contacts that are loading initially are hard-coded in the ContactService
 
 In the header section under the manage dropdown the two links do the following.
 
-Save Data : save the current contacts on the screen to the firebase database.
-Fetch Data: fetch the contacts that are saved in the firebase database.
+Save Data : save the current contacts on the screen to the firebase database. <br />
+Fetch Data: fetch the contacts that are saved in the firebase database.<br />
 
 Create Contact, Edit Contact, Delete Contact won't update the values in the database.
-Note: Only way to update is saveData and fetchData.
 
 ## Code scaffolding
 
